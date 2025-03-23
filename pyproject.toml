@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bunkr-scraper"
+version = "0.1.0"
+description = "Web scraper for bunkr.cr"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.0"
+uvicorn = "^0.34.0"
+requests = "^2.32.0"
+beautifulsoup4 = "^4.13.0"
+aiohttp = "^3.11.0"
+tqdm = "^4.67.0"
+pydantic = "^2.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

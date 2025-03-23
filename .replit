@@ -1,0 +1,2 @@
+language = "python3"
+run = "python -m uvicorn backend.api:app --host 0.0.0.0 --port 8080"
